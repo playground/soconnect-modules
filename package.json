@@ -1,0 +1,27 @@
+{
+  "name": "soconnect-modules",
+  "version": "1.0.0",
+  "description": "Build shared libs/modules",
+  "main": "index.js",
+  "scripts": {
+    "lib-gen": "node bin/lib-generator",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/playground/soconnect-modules.git"
+  },
+  "author": "Jeff Lu <pay2cloud@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/playground/soconnect-modules/issues"
+  },
+  "homepage": "https://github.com/playground/soconnect-modules#readme",
+  "devDependencies": {
+    "dotenv": "^4.0.0",
+    "jsonfile": "^3.0.1",
+    "rxjs": "^5.4.3",
+    "rxjs-exec": "^0.4.1",
+    "user-email": "^1.0.1"
+  }
+}

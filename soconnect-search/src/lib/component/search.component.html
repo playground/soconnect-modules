@@ -1,0 +1,12 @@
+<div class="search-container" id="soconnect-search">
+  <div class="search">
+    <input id="twc-search-input"
+           #inputSearch
+           type="text"
+           class="wxwidget-location-search"
+           name="search"
+           (input)="searchTerms.next(inputSearch.value)"
+           placeholder="{{translate('Search city or zip')}}" required="">
+  </div>
+</div>
+
